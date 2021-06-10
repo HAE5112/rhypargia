@@ -39,7 +39,7 @@ public class CharacterControl : MonoBehaviour
         if (jumpFlag)
         {
             jumpTime += Time.fixedDeltaTime;
-            if (jumpTime < 0.5f)
+            if (jumpTime < 0.25f)
                 rigidbody.velocity = new Vector2(rigidbody.velocity.x, verticalPower);
             else
                 jumpFlag = false;
