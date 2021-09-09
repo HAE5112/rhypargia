@@ -176,16 +176,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171400722532677826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc85668533ae837418b0c120aaf7204f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8179630dfec87de4f98a785033c83c66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0
   duration: 0
-  start: {x: 0, y: 0}
-  direction: 0
-  index: 0
-  style: 0
-  noteStyles:
+  noteType: 0
+  osu_start: {x: 0, y: 0}
+  osu_direction: 0
+  osu_size: 0
+  osu_index: 0
+  osu_style: 0
+  osu_noteStyles:
   - circle: {fileID: 21300000, guid: 285fac5f0fab4e2488b1acdc70cdadd7, type: 3}
     approach: {fileID: 21300000, guid: 1b80e4f2d08292a4e9752318e75fefd2, type: 3}
   - circle: {fileID: 21300000, guid: 80a9f7173e221564f8c914ad60aae3de, type: 3}
@@ -196,7 +198,7 @@ MonoBehaviour:
     approach: {fileID: 21300000, guid: 681d4ce184e3cf7469adaa29b6434af2, type: 3}
   - circle: {fileID: 21300000, guid: 515a1c4acc6743c4b8d4e86846748dd4, type: 3}
     approach: {fileID: 21300000, guid: 2d798da66e2ff964f8e45470aa5b9761, type: 3}
-  numbers:
+  osu_numbers:
   - {fileID: 21300000, guid: 2906b8f8d9f97d9478a56cb16ab53f57, type: 3}
   - {fileID: 21300000, guid: f382a865999ce094baea6aaa26656166, type: 3}
   - {fileID: 21300000, guid: 144b41e6a9e858c46aace06614e9c97a, type: 3}
@@ -207,6 +209,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7fde3e8275124aa4481cd76e085ceebb, type: 3}
   - {fileID: 21300000, guid: 88d22873f6633e349a319c294bc833c0, type: 3}
   - {fileID: 21300000, guid: ddf757684f803854fb974e00f30c1122, type: 3}
+  mania_line: 0
+  mania_noteSprites: []
 --- !u!1 &3644236490068052396
 GameObject:
   m_ObjectHideFlags: 0

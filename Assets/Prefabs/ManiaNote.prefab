@@ -91,11 +91,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 7164681137677057555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7c041418dcb4104e9c9f7d1d1819ca9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8179630dfec87de4f98a785033c83c66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0
-  line: 0
-  note:
+  duration: 0
+  noteType: 1
+  osu_start: {x: 0, y: 0}
+  osu_direction: 0
+  osu_size: 0
+  osu_index: 0
+  osu_style: 0
+  osu_noteStyles: []
+  osu_numbers: []
+  mania_line: 0
+  mania_noteSprites:
   - {fileID: 21300000, guid: 0828fdd9663be9d44ade85068fa9e82d, type: 3}
   - {fileID: 21300000, guid: cd08f11489ee0b64a8308184ce6be926, type: 3}
